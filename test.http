@@ -1,0 +1,25 @@
+POST http://localhost:3001/locize/webhook
+Content-Type: application/json
+
+{
+   "id":"427cc4dd-adf5-4fb8-ad8d-8508f2788fe3",
+   "name":"versionPublished",
+   "occurredAt":"2018-01-02T21:27:11.326Z",
+   "message":"William Timberland published version prod!",
+   "payload":{
+      "version":"latest"
+   },
+   "meta":{
+      "project":{
+         "id":"23dad587-b3bf-4663-b15c-ad8d66213ac6",
+         "name":"THIS PROJECT",
+         "slug":"albo6dxk"
+      },
+      "user":{
+         "id":"ab075147-c7a3-45d2-9b24-739ae2ed948a",
+         "firstname":"William",
+         "lastname":"Timberland"
+      },
+      "link":"https://www.locize.io/p/albo6dxk/v/prod"
+   }
+}

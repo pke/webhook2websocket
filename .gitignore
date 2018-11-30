@@ -1,0 +1,8 @@
+node_modules
+js
+*.sqlite
+package-lock.json
+.cache
+dist
+build
+.DS_Store
