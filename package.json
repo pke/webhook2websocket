@@ -12,7 +12,7 @@
   "author": "Philipp Kursawe <phil.kursawe@gmail.com>",
   "license": "MIT",
   "dependencies": {
-    "socket.io": "2.2.0",
+    "socket.io": "3.0.5",
     "raw-body": "2.3.3",
     "content-type": "1.0.4"
   },
